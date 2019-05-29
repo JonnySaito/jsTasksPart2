@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 30px;
+    background-color: #dae6f2;
+    text-align: center !important;
+
+}
+
+#dieBox{
+    width: 200px;
+    height: 200px;
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 5px;
+}
