@@ -8,10 +8,31 @@
 
 }
 
+.dieContainer::after{
+    clear: both;
+    justify-content: center;
+}
+
 #dieBox{
     width: 200px;
     height: 200px;
     background-color: beige;
     border: 2px solid black;
     border-radius: 5px;
+    float: left;
+    display: block;
+}
+
+#dieNumber{
+    font-size: 110px;
+    background-color: beige;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+}
+
+#dieButton{
+    background-color: beige;
+    border-radius: 100px;
 }
